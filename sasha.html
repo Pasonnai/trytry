@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 500px;
+        }
+        .container h2 {
+            text-align: center;
+        }
+        
+        h3 {
+            background-color: blue;
+            color: white;
+            text-align: right;
+            font-size: 800%;
+            display: flex;
+            text-align: center;
+
+        }   
+            
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: calc(100% - 20px);
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group input[type="submit"] {
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .form-group input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form action="submit.php" method="post">
+            <div class="form-group">
+                <label for="name"></label>
+                <input type="text" placeholder="Enter your name" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="email" placeholder="Enter your email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="create-password"></label>
+                <input type="password" placeholder="Create password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password"></label>
+                <input type="email" placeholder="Confirm password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <form class="form-group terms-condition">
+                  <input type="checkbox" id="termsCheckbox" required><en>I accept all terms & conditions.</en>  
+                            
+            </form>
+            <div class="form-group">
+                <input type="submit" value="Register Now">
+            </div>
+            </form>
+            
+            <div class="login-link">
+                <p>Already have an account? <a href="login.html">Login Now</a></p>
+            </div>
+    </div>
+    
+        <h3>Beautiful Sign up Form</h3>
+    
+</body>
+</html>

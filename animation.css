@@ -1,0 +1,76 @@
+body{
+    background-color: blue;
+    color: white;
+}
+.animat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    color: black;
+    animation-name: Pasonnai;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@keyframes Pasonnai{
+    from {transform: translate(150px);}
+}
+.like{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    background-color:green;
+    color: black;
+    animation-name: Prissy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes Prissy{
+from{transform: rotate(360deg);}
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    background-color: red;
+    color: black;
+    animation-name: Desola;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+       
+}
+@keyframes Desola{
+    from{transform: scaleX(4);}
+}
+.much{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    background-color:yellow;
+    color: white;
+    transition: 5s;
+    animation-name: Sasha;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Sasha {
+    10%{background-color: black;}
+    50%{background-color: green;}
+    30%{background-color: purple;}
+    from{transform: translateX(180px);}
+}
+
+    

@@ -1,0 +1,71 @@
+table,
+table tr,
+table tr th,
+table tr td {
+  margin-left: 300px;
+  border: 2px solid red;
+  border-collapse: collapse;
+  width: 400px;
+  background-color: aquamarine;
+}
+
+.on td:nth-child(2),
+.on td:nth-child(4) {
+  background-color: purple;
+}
+
+form {
+  background-color: aquamarine;
+  width: 50%;
+  padding: 20px;
+  margin-left: 90px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+#btn {
+  background-color: yellow;
+  width: 90px;
+  height: 30px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#btn:hover {
+  background-color: red;
+  border: 2px solid white;
+  width: 120px;
+  color: white;
+}
+
+.parent {
+  background-color: red;
+  width: 50%;
+  margin-left: 120px;
+  height: 150px;
+  margin-bottom: 90px;
+  z-index: 2;
+}
+.child {
+  background-color: blue;
+  position: absolute;
+  right: 200px;
+  width: 400px;
+  z-index: -1;
+}

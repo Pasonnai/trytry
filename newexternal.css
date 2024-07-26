@@ -1,0 +1,22 @@
+/* Text formatting*/
+
+h1{
+    color: blue;
+    font-size: 400%;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+
+}
+h2{
+    color: green;
+}
+h3{
+    background-color: #e83535f0;
+    color: white;
+    font-weight: 600;
+    font-size: 200%;
+    text-decoration: underline;
+    font-style: normal;
+}
